@@ -1,24 +1,30 @@
-Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et 3 sur une ligne, ainsi que les cartes 4 et 5 sur une ligne, tout en gardant la première grande carte en `col-md-6` :
-
-```html
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home AK</title>
+    <title>home AK</title>
     <link rel="stylesheet" href="style.css">
     <!-- Inclure le lien vers la feuille de style Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 </head>
+
 <body>
     <div class="background-image">
         <!-- La section du titre et du paragraphe -->
         <div class="container">
-            <h1 class="titre">Une animation <br /> de texte ici <br </h1>
+            <h1 class="titre">Une animation <br> de texte ici </h1>
             <div class="paragraphe">
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla neque, accumsan ut finibus id, consectetur ut metus. Donec gravida id velit ac tempor. Aenean neque sapien, ultricies sit amet suscipit tincidunt, lobortis sed risus. Sed tincidunt ipsum velit. Donec a metus ligula. Donec sit amet blandit justo, non rhoncus ipsum. Cras a tristique elit. Donec in magna non tellus sagittis dictum. Duis laoreet neque quis ante ultricies, vitae commodo eros commodo. Sed vitae dui id purus ornare mollis. Fusce non lorem ac velit auctor posuere id non felis.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla neque, accumsan ut
+                    finibus id, consectetur ut metus. Donec gravida id velit ac tempor. Aenean neque sapien,
+                    ultricies sit amet suscipit tincidunt, lobortis sed risus. Sed tincidunt ipsum velit. Donec a
+                    metus ligula. Donec sit amet blandit justo, non rhoncus ipsum. Cras a tristique elit. Donec in
+                    magna non tellus sagittis dictum. Duis laoreet neque quis ante ultricies, vitae commodo eros
+                    commodo. Sed vitae dui id purus ornare mollis. Fusce non lorem ac velit auctor posuere id non
+                    felis.
                 </p>
             </div>
         </div>
@@ -30,7 +36,7 @@ Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et
             <!-- Carte 1 (Grande carte) -->
             <div class="col-md-6">
                 <div class="card">
-                    <img src="/Images/pexels-dariusz-grosa-736355 (1).jpg" class="card-img-top" alt="Image 1">
+                    <img src="/Images/pexels-dariusz-grosa-736355.jpg" class="card-img-top" alt="Image 1">
                     <div class="card-body">
                         <h5 class="card-title">Metal Hammer Paradise</h5>
                         <p class="card-text">Du 31 juillet au 4 août.</p>
@@ -38,11 +44,11 @@ Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et
                 </div>
             </div>
 
-            <!-- Carte 2 et 3 (en col-md-3) dans la même rangée -->
-            <div class="col-md-6">
+            <!-- Cartes 2 et 3 (en col-md-3) dans la même rangée -->
+            <div class="col-md-3">
                 <div class="row">
                     <!-- Carte 2 -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="card">
                             <img src="/Images/pexels-josh-sorenson-995301.jpg" class="card-img-top" alt="Image 2">
                             <div class="card-body">
@@ -53,7 +59,7 @@ Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et
                     </div>
 
                     <!-- Carte 3 -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="card">
                             <img src="/Images/pexels-brett-sayles-1434625.jpg" class="card-img-top" alt="Image 3">
                             <div class="card-body">
@@ -65,11 +71,11 @@ Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et
                 </div>
             </div>
 
-            <!-- Carte 4 et 5 (en col-md-3) dans la même rangée -->
-            <div class="col-md-6">
+            <!-- Cartes 4 et 5 (en col-md-3) dans la même rangée -->
+            <div class="col-md-3">
                 <div class="row">
                     <!-- Carte 4 -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="card">
                             <img src="/Images/pexels-vishnu-r-nair-1105666.jpg" class="card-img-top" alt="Image 4">
                             <div class="card-body">
@@ -80,9 +86,9 @@ Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et
                     </div>
 
                     <!-- Carte 5 -->
-                    <div class="col-md-6">
+                    <div class="col-md-12">
                         <div class="card">
-                            <img src="/Images/pexels-dustin-tray-11963114.jpg" class="card-img-top" alt="Image 5">
+                            <img src="/Images/pexels-brett-sayles-1434625.jpg" class="card-img-top" alt="Image 5">
                             <div class="card-body">
                                 <h5 class="card-title">Motocultor 2024</h5>
                                 <p class="card-text">Du 17 au 20 août.</p>
@@ -91,13 +97,38 @@ Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et
                     </div>
                 </div>
             </div>
-            
-            <!-- Ajouter les autres cartes ici -->
-                
         </div>
     </div>
-</body>
-</html>
-```
 
-Dans ce code, les cartes 2 et 3 sont placées dans une rangée (`row`) à l'intérieur de la même colonne (`col-md-6`) pour être alignées côte à côte. De même, les cartes 4 et 5 sont également placées dans une rangée (`row`) à l'intérieur de la même colonne (`col-md-6`) pour être alignées côte à côte.
+
+
+
+    <div class="container mt-4">
+        <h2 class="titre2">Nos disquaires partenaires </h2>
+    </div>
+
+    <div class="container">
+        <div class="row">
+                <div class="card col-md-4" >
+                    <img src="/Images/pexels-alana-sousa-3294249.jpg" class="rounded-circle" alt="alana">
+                    <h1>Monptellier</h1>
+                </div>
+
+
+                <div class="card col-md-4" >
+                    <img src="/Images/pexels-rdne-stock-project-7020686.jpg" class="rounded-circle" alt="alana">
+                    <h1>Paris</h1>
+                </div>
+
+                <div class="card col-md-4" >
+                    <img src="/Images/pexels-dustin-tray-11963114.jpg" class="rounded-circle" alt="alana">
+                    <h1>Reims</h1>
+                </div>
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

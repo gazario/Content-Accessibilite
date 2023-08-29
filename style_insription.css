@@ -1,0 +1,98 @@
+
+/*
+@font-face {
+	font-family: 'Montserrat';
+    font-style: Bold;
+	src: url('./Fonts/Montserrat/Montserrat-Bold.ttf') format(‘truetype’)
+}
+
+@font-face {
+	font-family: 'RubikMonoOne';
+    font-style: Regular;
+	src: url('./Fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf') format(‘truetype’)
+}
+
+*/
+
+.container {
+    /*width: calc(100% - 200px);*/
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color:#23221E !important;
+    position: fixed;
+    overflow: hidden;
+}
+.icones-top{
+    width: 20px;
+
+}
+
+.nav-link{
+    color: #756822 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BANDEAU */
+
+.bandeau{
+    color: #756822;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-style: Bold;
+
+    justify-content: center;
+
+    height: 400px;
+    min-width: 100%;
+
+    background-image: url(./Images/pexels-dariusz-grosa-736355.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb-item>a{
+    font-family: 'Montserrat', sans-serif;
+    color: black !important;
+    text-decoration: none;
+}
+
+.tableau_offres{
+    border: 1px solid black!;
+    
+}
+
+.sous-titres{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: large;
+}
+
+.img_form{
+    background-image: url(/Images/pexels-dariusz-grosa-736355.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chps_form{
+    width: 100%;
+}
+
+.inscription_form{
+    height: 500px;
+}
+
+.btn-inscr{
+    background-color: #756822;
+    width: 200px;
+}
+
+.tableau_offres>th{
+    background-color: #756822 !important;
+    font-weight: bolder;
+}

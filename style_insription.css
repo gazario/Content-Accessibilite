@@ -138,8 +138,18 @@ footer{
 }
 
 input:checked{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 10px solid;
+    border-color: #756822;
+    /*
     border-color: #756822 !important;
     color: #756822 !important;
     background-color: #756822 !important;
-
+*/
 }

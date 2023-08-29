@@ -28,24 +28,24 @@
                     <a class="logo-site" href="#"><img src="./Icones/logo.svg" alt=""></a>
                 </div>
            
-              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
-                <div class="d-flex justify-content-center">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">ACCUEIL</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">EVENEMENTS</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link" href="#">CONTACTS</a>
-                        </li>
-                      </ul>
+              <div class="d-flex flex-row  navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <div class="col-10 d-flex justify-content-center">
+                        <ul class="navbar-nav  mb-2 mb-lg-0">
+                            <li class="nav-item ">
+                              <a class="nav-link" href="#">ACCUEIL</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">ÉVÈNEMENTS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">CONTACTS</a>
+                            </li>
+                          </ul>
                 </div>
                 
-                <div>
-                    <a class="px-5 icones-top" href="#"><img class="icones-top" src="./Icones/panier.svg" alt=""></a>
-                    <a class="px-4 icones-top" href="#"><img class="icones-top" src="./Icones/profil.svg" alt=""></a>
+                <div class="col-2">
+                    <a class="px-5" href="#"><img class="icones-top" src="./Icones/panier.svg" alt=""></a>
+                    <a class="px-4" href="#"><img class="icones-top" src="./Icones/profil.svg" alt=""></a>
                 </div>
               </div>
             </div>
@@ -65,7 +65,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#">Home</a></li>
             <li class="breadcrumb-item"><a href="#">Sneakers</a></li>
-            <li class="breadcrumb-item"><a href="#">Evenements</a></li>
+            <li class="breadcrumb-item"><a href="#">Évènements</a></li>
             <li class="breadcrumb-item active" aria-current="page"><strong>Inscription</strong></li>
         </ol>
     </nav>
@@ -77,17 +77,17 @@
         <div class="d-flex align-items-center">
             <table class=" table table-bordered tableau_offres text-center">
                 <tr>
-                    <th>PASS 1 JOUR</th>
-                    <th>PASS 2 JOURS</th>
-                    <th>PASS COMPLET</th>
+                    <th class="tab-t p-2">PASS 1 JOUR</th>
+                    <th class="tab-t p-2">PASS 2 JOURS</th>
+                    <th class="tab-t p-2">PASS COMPLET</th>
                 </tr>
                 <tr>
-                    <td>Avantages de l'offre </br> Pass 1</td>
-                    <td>Avantages de l'offre </br> Pass 2</td>
-                    <td>Avantages de l'offre </br> Pass complet</td>
+                    <td class="tab-h p-4">Avantages de l'offre </br> Pass 1</td>
+                    <td class="tab-h p-4">Avantages de l'offre </br> Pass 2</td>
+                    <td class="tab-h p-4">Avantages de l'offre </br> Pass complet</td>
                 </tr>
                 <tr>
-                    <td>
+                    <td class="tab-h p-4">
                         <i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
                         </br><i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
                         </br><i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
@@ -97,7 +97,7 @@
                         </br>
                     </td>
 
-                    <td>
+                    <td class="tab-h p-4">
                         <i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
                         </br><i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
                         </br><i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
@@ -107,7 +107,7 @@
                         </br>
                     </td>
 
-                    <td>
+                    <td class="tab-h p-4">
                         <i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
                         </br><i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
                         </br><i class="fa-regular fa-circle-check" style="color: #756822;"></i> Détail de l'offre 
@@ -118,9 +118,9 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>70€</td>
-                    <td>110€</td>
-                    <td>160€</td>
+                    <td class="tab-h p-2">70€</td>
+                    <td class="tab-h p-2">110€</td>
+                    <td class="tab-h p-2">160€</td>
                 </tr>
             </table>
         </div>
@@ -128,13 +128,13 @@
             <form>
                 <div class="d-flex row">
                     <div class="col-4 text-center">
-                        <input type="radio" id="contactChoice1" name="contact" value="email" />
+                        <input type="radio" class="rdbut" name="contact" value="email" />
                     </div>
                     <div class="col-4 text-center">
-                        <input type="radio" id="contactChoice2" name="contact" value="email" />
+                        <input type="radio" class="rdbut" name="contact" value="email" />
                     </div>
                     <div class="col-4 text-center">
-                        <input type="radio" id="contactChoice3" name="contact" value="email" />
+                        <input type="radio" class="rdbut" name="contact" value="email" />
                     </div>
                 </div>
             </form>

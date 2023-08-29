@@ -29,6 +29,7 @@
 }
 .icones-top{
     width: 20px;
+    fill: #756822;
 
 }
 
@@ -68,9 +69,11 @@
 }
 
 .sous-titres{
+    font-family: 'Rubik Mono One', sans-serif;
     margin-top: 80px;
     margin-bottom: 40px;
     font-size: large;
+    font-weight: bold;
 }
 
 .img_form{
@@ -94,9 +97,17 @@
     box-shadow: 3px 3px white;
 }
 
-.tableau_offres>th{
+.tab-t{
     background-color: #756822 !important;
+    border: 1px solid black !important;
+    font-family: 'Rubik Mono One', sans-serif;
     font-weight: bolder;
+}
+
+.tab-h{
+    border: 1px solid black !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
 }
 
 footer{
@@ -119,5 +130,16 @@ footer{
     background-color: #756822;
     height: 60px;
     font-size: smaller;
+
+}
+.nav-link{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+input:checked{
+    border-color: #756822 !important;
+    color: #756822 !important;
+    background-color: #756822 !important;
 
 }

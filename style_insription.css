@@ -34,7 +34,8 @@
 
 .nav-link{
     color: #756822 !important;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-weight:bold !important;
 }
 
 /* BANDEAU */
@@ -90,9 +91,33 @@
 .btn-inscr{
     background-color: #756822;
     width: 200px;
+    box-shadow: 3px 3px white;
 }
 
 .tableau_offres>th{
     background-color: #756822 !important;
     font-weight: bolder;
+}
+
+footer{
+    color: white;
+    background-color: #23221E;
+}
+
+.suivez-nous{
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.chps-footer{
+    width: 1000px;
+    background-color: #67635A;
+}
+
+.bottomline{
+    color: #23221E;
+    background-color: #756822;
+    height: 60px;
+    font-size: smaller;
+
 }

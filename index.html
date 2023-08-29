@@ -1,11 +1,103 @@
+Je m'excuse pour la confusion. Voici comment vous pouvez aligner les cartes 2 et 3 sur une ligne, ainsi que les cartes 4 et 5 sur une ligne, tout en gardant la première grande carte en `col-md-6` :
+
+```html
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home AK</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Inclure le lien vers la feuille de style Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <div class="background-image">
+        <!-- La section du titre et du paragraphe -->
+        <div class="container">
+            <h1 class="titre">Une animation <br /> de texte ici <br </h1>
+            <div class="paragraphe">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla neque, accumsan ut finibus id, consectetur ut metus. Donec gravida id velit ac tempor. Aenean neque sapien, ultricies sit amet suscipit tincidunt, lobortis sed risus. Sed tincidunt ipsum velit. Donec a metus ligula. Donec sit amet blandit justo, non rhoncus ipsum. Cras a tristique elit. Donec in magna non tellus sagittis dictum. Duis laoreet neque quis ante ultricies, vitae commodo eros commodo. Sed vitae dui id purus ornare mollis. Fusce non lorem ac velit auctor posuere id non felis.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- La section de la galerie de cartes -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Carte 1 (Grande carte) -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="/Images/pexels-dariusz-grosa-736355 (1).jpg" class="card-img-top" alt="Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Metal Hammer Paradise</h5>
+                        <p class="card-text">Du 31 juillet au 4 août.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 2 et 3 (en col-md-3) dans la même rangée -->
+            <div class="col-md-6">
+                <div class="row">
+                    <!-- Carte 2 -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="/Images/pexels-josh-sorenson-995301.jpg" class="card-img-top" alt="Image 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Full Metal Cruise</h5>
+                                <p class="card-text">Du 15 juillet au 4 août.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 3 -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="/Images/pexels-brett-sayles-1434625.jpg" class="card-img-top" alt="Image 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Rock en Seine 2024</h5>
+                                <p class="card-text">Du 3 au 9 août.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carte 4 et 5 (en col-md-3) dans la même rangée -->
+            <div class="col-md-6">
+                <div class="row">
+                    <!-- Carte 4 -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="/Images/pexels-vishnu-r-nair-1105666.jpg" class="card-img-top" alt="Image 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Dreathest 2024</h5>
+                                <p class="card-text">Du 15 au 18 juillet.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Carte 5 -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <img src="/Images/pexels-dustin-tray-11963114.jpg" class="card-img-top" alt="Image 5">
+                            <div class="card-body">
+                                <h5 class="card-title">Motocultor 2024</h5>
+                                <p class="card-text">Du 17 au 20 août.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Ajouter les autres cartes ici -->
+                
+        </div>
+    </div>
 </body>
 </html>
+```
+
+Dans ce code, les cartes 2 et 3 sont placées dans une rangée (`row`) à l'intérieur de la même colonne (`col-md-6`) pour être alignées côte à côte. De même, les cartes 4 et 5 sont également placées dans une rangée (`row`) à l'intérieur de la même colonne (`col-md-6`) pour être alignées côte à côte.

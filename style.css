@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/Images/pexels-edward-eyer-811838.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 100px;
+}
+
+.titre {
+    color: olive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 4rem;
+    font-weight:bolder;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.paragraphe {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size:medium;
+    text-transform:capitalize;
+
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin-top: 20px;
+}

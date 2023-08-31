@@ -1,40 +1,31 @@
-
-/*
-@font-face {
-	font-family: 'Montserrat';
-    font-style: Bold;
-	src: url('./Fonts/Montserrat/Montserrat-Bold.ttf') format(‘truetype’)
+/* GENERAL */
+:root{
+    --green: #AF9A31;
+    --snow: #FCFCFC;
+    --grey: #4B473E;
+    --dark: #050505;
 }
 
-@font-face {
-	font-family: 'RubikMonoOne';
-    font-style: Regular;
-	src: url('./Fonts/Rubik_Mono_One/RubikMonoOne-Regular.ttf') format(‘truetype’)
-}
-
-*/
-
-.container {
-    /*width: calc(100% - 200px);*/
-    max-width: 300px;
+.container_1 {
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* NAVBAR */
+/* HEADER ----------------------------*/
 .navbar {
-    background-color:#23221E !important;
+    background-color:var(--dark) !important;
     position: fixed;
     overflow: hidden;
 }
 .icones-top{
     width: 20px;
-    fill: #756822;
+    fill: var(--green);
 
 }
 
 .nav-link{
-    color: #756822 !important;
+    color: var(--green) !important;
     font-family: 'Rubik Mono One', sans-serif;
     font-weight:bold !important;
 }
@@ -42,7 +33,7 @@
 /* BANDEAU */
 
 .bandeau{
-    color: #756822;
+    color: var(--green);
     font-family: 'Rubik Mono One', sans-serif;
     font-style: Bold;
 
@@ -57,14 +48,16 @@
     background-size: cover;
 }
 
+/* ---------------------------- HEADER */
+
 .breadcrumb-item>a{
     font-family: 'Montserrat', sans-serif;
-    color: black !important;
+    color: var(--dark) !important;
     text-decoration: none;
 }
 
 .tableau_offres{
-    border: 1px solid black!;
+    border: 1px solid var(--dark) !important;
     
 }
 
@@ -92,27 +85,44 @@
 }
 
 .btn-inscr{
-    background-color: #756822;
+    background-color: var(--green);
     width: 200px;
-    box-shadow: 3px 3px white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px var(--snow);
+    font-weight: bolder;
 }
 
 .tab-t{
-    background-color: #756822 !important;
-    border: 1px solid black !important;
+    background-color: var(--green) !important;
+    border: 1px solid --dark !important;
     font-family: 'Rubik Mono One', sans-serif;
     font-weight: bolder;
 }
 
 .tab-h{
-    border: 1px solid black !important;
+    border: 1px solid var(--dark) !important;
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
 }
 
+.rdbut:checked{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 10px solid;
+    border-color: var(--green);
+}
+
+/* FOOTER--------------------*/
+
 footer{
-    color: white;
-    background-color: #23221E;
+    color: var(--snow);
+    background-color: var(--dark);
 }
 
 .suivez-nous{
@@ -122,13 +132,13 @@ footer{
 
 .chps-footer{
     width: 1000px;
-    background-color: #67635A;
-    border: 1px solid black !important;
+    background-color: var(--grey);
+    border: 1px solid var(--dark) !important;
 }
 
 .bottomline{
-    color: #23221E;
-    background-color: #756822;
+    color: var(--dark);
+    background-color: var(--green);
     height: 60px;
     font-size: smaller;
 
@@ -138,19 +148,5 @@ footer{
     margin-right: 35px;
 }
 
-input:checked{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+/*--------------------FOOTER*/
 
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border: 10px solid;
-    border-color: #756822;
-    /*
-    border-color: #756822 !important;
-    color: #756822 !important;
-    background-color: #756822 !important;
-*/
-}

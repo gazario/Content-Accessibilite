@@ -1,17 +1,24 @@
+/* GENERAL */
+:root{
+    --green_index: #AF9A31;
+    --snow_index: #FCFCFC;
+    --grey_index: #4B473E;
+    --dark_index: #050505;
+}
+
+
 /* NAVBAR */
 .navbar {
-    background-color:#23221E !important;
+    background-color:var(--dark_index) !important;
     position: fixed;
     overflow: hidden;
 }
 .icones-top{
     width: 20px;
-    fill: #756822;
-
 }
 
 .nav-link{
-    color: #756822 !important;
+    color: var(--green_index) !important;
     font-family: 'Rubik Mono One', sans-serif;
     font-weight:bold !important;
 }
@@ -36,47 +43,43 @@ body {
 }
 
 .titre {
-    color: olive;
+    color: var(--green_index);
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 4rem;
     font-weight: bolder;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(5, 5, 5, 0.7);
     padding: 10px;
 }
 
 .titre2 {
-    color: grey;
+    color: var(--grey_index);
     font-family: 'Rubik Mono One', sans-serif;
     font-size: large;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    background-color: blanchedalmond;
+    background-color: var(--snow_index);
 }
 
 
 
 .paragraphe {
-    color: white;
+    color: var(--snow_index);
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     text-transform: capitalize;
 
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(5, 5, 5, 0.7);
     padding: 10px;
     margin-top: 20px;
 }
 
-.rounded-circle {
 
-}
-
-
-/* FOOTER */
+/* FOOTER ----------------------------------------*/
 footer{
-    color: white;
-    background-color: #23221E;
+    color: var(--snow_index);
+    background-color: var(--dark_index);
 }
 
 .suivez-nous{
@@ -86,13 +89,13 @@ footer{
 
 .chps-footer{
     width: 1000px;
-    background-color: #67635A;
-    border: 1px solid black !important;
+    background-color: var(--grey_index);
+    border: 1px solid var(--dark_index) !important;
 }
 
 .bottomline{
-    color: #23221E;
-    background-color: #756822;
+    color: var(--dark_index);
+    background-color: var(--green_index);
     height: 60px;
     font-size: smaller;
 
@@ -110,8 +113,11 @@ footer{
 }
 
 .btn-inscr{
-    background-color: #756822;
+    background-color: var(--green_index);
     width: 200px;
-    box-shadow: 3px 3px white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px var(--snow_index);
+    font-weight: bolder;
 }
-/* FOOTER */
+/* -------------------------------- FOOTER */

@@ -1,19 +1,18 @@
-/* COLORS */
+/* GENERAL */
 :root{
     --green: #AF9A31;
     --snow: #FCFCFC;
-    --grey: #9E998F;
+    --grey: #4B473E;
     --dark: #050505;
 }
 
 .container_1 {
-    /*width: calc(100% - 200px);*/
     width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* NAVBAR */
+/* HEADER ----------------------------*/
 .navbar {
     background-color:var(--dark) !important;
     position: fixed;
@@ -48,6 +47,8 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* ---------------------------- HEADER */
 
 .breadcrumb-item>a{
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +87,10 @@
 .btn-inscr{
     background-color: var(--green);
     width: 200px;
+    border-radius: 10px;
+    border: none;
     box-shadow: 3px 3px var(--snow);
+    font-weight: bolder;
 }
 
 .tab-t{
@@ -101,6 +105,20 @@
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
 }
+
+.rdbut:checked{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 10px solid;
+    border-color: var(--green);
+}
+
+/* FOOTER--------------------*/
 
 footer{
     color: var(--snow);
@@ -130,19 +148,5 @@ footer{
     margin-right: 35px;
 }
 
-input:checked{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
+/*--------------------FOOTER*/
 
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border: 10px solid;
-    border-color: var(--green);
-    /*
-    border-color: #756822 !important;
-    color: #756822 !important;
-    background-color: #756822 !important;
-*/
-}

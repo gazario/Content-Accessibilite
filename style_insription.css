@@ -80,7 +80,7 @@
 }
 
 .sous-titres{
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     margin-top: 80px;
     margin-bottom: 40px;
     font-size: large;
@@ -115,7 +115,7 @@
  
     background-color: var(--green) !important;
     border: 1px solid --dark !important;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-weight: bolder;
 }
 

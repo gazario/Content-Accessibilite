@@ -25,10 +25,20 @@
 
 .nav-link{
     color: var(--green_index) !important;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight:bold !important;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: larger;
+    font-weight: regular;
+}
+.title {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* NAVBAR */
+.logo-site{
+    width: 70px;
+    height: auto;
+}
 
 body {
     margin: 0;
@@ -43,7 +53,11 @@ body {
     background-position: center;
 }
 
-
+.container_1 {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .container {
     padding: 100px;
 }

@@ -27,26 +27,26 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container_1 d-flex flex-row justify-content-between">
                 <div>
-                    <a href="#"><img class="logo-site" src="./Icones/logo.svg" alt=""></a>
+                    <a tabindex="1" href="#"><img class="logo-site" src="./Icones/logo.svg" alt=""></a>
                 </div>
                 
                 <div class="d-flex flex-row align-items-center">
                         <ul class="navbar-nav  mb-2 ">
                             <li class="nav-item ">
-                            <a class="nav-link" href="#">Accueil</a>
+                            <a tabindex="2" class="nav-link" href="#">Accueil</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Évènements</a>
+                            <a tabindex="3" class="nav-link" href="#">Évènements</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a tabindex="4" class="nav-link" href="#">Contacts</a>
                             </li>
                         </ul>
                 </div>
             
                 <div class="d-flex flex-row align-items-center justify-content-end">
-                    <a class="px-5" href="#"><img class="icones-top" src="./Icones/panier.svg" alt=""></a>
-                    <a class="ps-3" href="#"><img class="icones-top" src="./Icones/profil.svg" alt=""></a>
+                    <a tabindex="5" class="px-5" href="#"><img class="icones-top" src="./Icones/panier.svg" alt=""></a>
+                    <a tabindex="6" class="ps-3" href="#"><img class="icones-top" src="./Icones/profil.svg" alt=""></a>
                 </div>
           
             </div>
@@ -175,41 +175,58 @@
 
         </div>
     </div>
-    <footer>
-        <div class="d-flex flex-row justify-content-around mt-5 pt-3">
-            <div class="col-4 text-center">
-                <span>Je m'inscris à la newsletter</span>
-            </div>
-            <div class="col-4 text-center">
-                <input class="chps_form" type="text" placeholder="email">
-            </div>
-            <div class="col-4 text-center">
-                <button class="btn-inscr">Je m'inscris</button>
-            </div>
-        </div>
-        <div class="suivez-nous">
-            <span class="me-3">Suivez-nous</span>
-            <a href="#"><img src="/Icones/instagram.svg" alt=""></a>
-            <a href="#"><img src="/Icones/facebook.svg" alt=""></a>
-            <a href="#"><img src="/Icones/twitter.svg" alt=""></a>
-        </div>
-    
-        <div class="d-flex flex-column py-5 text-center">
-            <div>
-                <input type="text" placeholder="label">
-            </div>
-            <div>
-                <input class="chps-footer" type="text" placeholder="label">
-            </div>
-            <div>
-                <input class="chps-footer" type="text" placeholder="label">
-            </div>
-            <div>
-                <input class="chps-footer" type="text" placeholder="label">
-            </div>
-        </div>
 
+    <footer class="mt-5">
+        <div class="container_1">
+            <div class="row">
+                <div class="col-5">
+                    <div class="my-3">
+                        <span>Je m'inscris à la newsletter</span>
+                    </div>
         
+                    <div class="col-4 text-center d-flex flex-row justify-content-between">
+                        <div class="chps_mail">
+                            <input tabindex="7" class="chps_mail" type="text" placeholder="email">
+                        </div>
+                        <div class="col-4 ms-4 text-center">
+                            <button tabindex="8" class="btn-inscr p-2">Je m'inscris</button>
+                        </div>
+                    </div>
+        
+                    <div class="d-flex flex-column py-2 text-center">
+                        <div class="py-2">
+                            <input tabindex="9" class="chps-footer" type="text" placeholder="label">
+                        </div>
+                        <div class="py-2">
+                            <input tabindex="10" class="chps-footer" type="text" placeholder="label">
+                        </div>
+                        <div class="py-2">
+                            <input tabindex="11" class="chps-footer" type="text" placeholder="label">
+                        </div>
+                        <div class="py-2">
+                            <input tabindex="12" class="chps-footer" type="text" placeholder="label">
+                        </div>
+                    </div>
+        
+                </div>
+        
+                <div class=" d-flex col-6 justify-content-center align-items-center">
+                    <div class="suivez-nous">
+                        <span class="me-3">Suivez-nous :</span>
+                        <a tabindex="13" href="#"><img src="/Icones/instagram.svg" alt=""></a>
+                        <a tabindex="14" href="#"><img src="/Icones/facebook.svg" alt=""></a>
+                        <a tabindex="15" href="#"><img src="/Icones/twitter.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+    
+    
+     
+    
+     
         <div class="bottomline d-flex justify-content-center align-items-center">   
             <span>© BeFestoch - 2023</span>
         </div>

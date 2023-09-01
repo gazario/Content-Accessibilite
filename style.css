@@ -1,6 +1,6 @@
 /* GENERAL */
 :root{
-    --green_index: #AF9A31;
+    --green_index: #ecebc2;
     --snow_index: #FCFCFC;
     --grey_index: #4B473E;
     --dark_index: #050505;
@@ -58,7 +58,7 @@ body {
 
 .titre {
     color: var(--green_index);
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 4rem;
     font-weight: bolder;
     text-transform: uppercase;
@@ -102,9 +102,11 @@ footer{
 }
 
 .chps-footer{
-    width: 1000px;
+    width: 100%;
     background-color: var(--grey_index);
     border: 1px solid var(--dark_index) !important;
+    border-radius: 5px;
+    height: 35px;
 }
 
 .bottomline{
@@ -169,6 +171,17 @@ footer{
 
   .card{
     border: none !important;
+    margin: 5px;
   }
 
- 
+  .chps_mail{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+
+.card-body{
+    background-color: var(--dark_index);
+    color: var(--green_index);
+}

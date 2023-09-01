@@ -1,6 +1,7 @@
 /* GENERAL */
 :root{
-    --green: #AF9A31;
+   /* --green: #AF9A31;*/
+    --green: #ecebc2;
     --snow: #FCFCFC;
     --grey: #4B473E;
     --dark: #050505;
@@ -96,6 +97,14 @@
 
 .chps_form{
     width: 100%;
+    
+}
+
+.chps_mail{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+
 }
 
 .inscription_form{
@@ -104,7 +113,7 @@
 
 .btn-inscr{
     background-color: var(--green);
-    width: 200px;
+    width: 170px;
     border-radius: 10px;
     border: none;
     box-shadow: 3px 3px var(--snow);
@@ -150,9 +159,11 @@ footer{
 }
 
 .chps-footer{
-    width: 1000px;
+    width: 100%;
     background-color: var(--grey);
     border: 1px solid var(--dark) !important;
+    border-radius: 5px;
+    height: 35px;
 }
 
 .bottomline{

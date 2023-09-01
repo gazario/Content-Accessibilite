@@ -5,24 +5,40 @@
     --grey: #4B473E;
     --dark: #050505;
 }
-
+/*
+@font-face {
+    font-family: 'Rubik Mono One', sans-serif;
+    22px regular
+}
+*/
 .container_1 {
-    width: 700px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .title {
-    width: 700px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
-
 /* HEADER ----------------------------*/
+.logo-site{
+    width: 70px;
+    height: auto;
+}
 .navbar {
     background-color:var(--dark) !important;
     position: fixed;
     overflow: hidden;
+   
+}
+
+.nav-link{
+    color: var(--green) !important;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: larger;
+    font-weight: regular;
 }
 .icones-top{
     width: 20px;
@@ -30,18 +46,13 @@
 
 }
 
-.nav-link{
-    color: var(--green) !important;
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight:bold !important;
-}
 
 /* BANDEAU */
 
 .bandeau{
     color: var(--green);
-    font-family: 'Rubik Mono One', sans-serif;
-    font-style: Bold;
+    color: var(--green) !important;
+    font-family: 'Archivo Black', sans-serif;
 
     justify-content: center;
 
@@ -50,7 +61,7 @@
 
     
     /*background: linear-gradient(rgba(3, 249, 3, 0.5), rgba(0,0,0,0.5));*/
-    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url(./Images/pexels-dariusz-grosa-736355.jpg);
+    background-image: linear-gradient( rgba(5,5,5,1), rgba(5,5,5,0.5)), url(./Images/pexels-dariusz-grosa-736355.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +76,8 @@
 }
 
 .tableau_offres{
-    border: 1px solid var(--dark) !important;
+   border: 1px solid var(--dark) !important;*/
+ 
     
 }
 
@@ -102,6 +114,7 @@
 }
 
 .tab-t{
+ 
     background-color: var(--green) !important;
     border: 1px solid --dark !important;
     font-family: 'Rubik Mono One', sans-serif;

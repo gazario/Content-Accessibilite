@@ -141,3 +141,29 @@ footer{
     font-weight: bolder;
 }
 /* -------------------------------- FOOTER */
+
+
+/* ANIMATION TITRE----------------------------*/
+.anime {
+    color: var(--green_index);
+    font-family: 'Archivo Black', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    animation-duration: 3s;
+    animation-name: slidein;
+
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/* ----------------------------ANIMATION TITRE*/

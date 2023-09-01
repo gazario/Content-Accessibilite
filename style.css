@@ -145,6 +145,7 @@ footer{
     font-weight: bolder;
     animation-duration: 3s;
     animation-name: slidein;
+    /*animation-direction: alternate;*/
 
   }
   
@@ -160,4 +161,12 @@ footer{
     }
   }
 
-/* ----------------------------ANIMATION TITRE*/
+
+  .circle-image{
+    object-fit: cover;
+    height: 63%;
+  }
+
+  .card{
+    border: none !important;
+  }

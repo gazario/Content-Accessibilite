@@ -141,7 +141,7 @@ footer{
 .anime {
     color: var(--green_index);
     font-family: 'Archivo Black', sans-serif;
-    font-size: xx-large;
+    font-size:50px;
     font-weight: bolder;
     animation-duration: 3s;
     animation-name: slidein;
